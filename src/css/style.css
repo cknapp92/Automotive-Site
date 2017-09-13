@@ -21,11 +21,15 @@ body {
 }
 
 .primary-overlay {
-  background-color:rgba(140,60,166,0.7);
+  background-color:rgba(50,60,166,0.7);
   position: absolute;
   top:0;
   left:0;
   height: 100%;
   width:0;
   width:100%;
+  }
+
+#main-footer{
+  height: 125px;
 }
