@@ -1,0 +1,31 @@
+body {
+  margin-top: 105px;
+}
+
+.navbar{
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.nav-item{
+  font-size:1.4rem;
+  padding-right: 20px;
+}
+
+#showcase{
+  position:relative;
+  background-image: url('../img/rsz_car2.jpg');
+  min-width: 1260px;
+  min-height: 450px;
+}
+
+.primary-overlay {
+  background-color:rgba(140,60,166,0.7);
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width:0;
+  width:100%;
+}

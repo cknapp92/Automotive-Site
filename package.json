@@ -1,14 +1,18 @@
 {
-  "name": "pauls-site",
+  "name": "Paul Knapp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "bootstrap": "^3.3.7"
-  }
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "license": "ISC"
 }
