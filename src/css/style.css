@@ -1,9 +1,10 @@
 body {
   margin-top: 105px;
+  background-color: whitesmoke;
 }
 
 .navbar{
-  box-shadow: 2px 2px 5px #3292a6;
+  box-shadow: 2px 2px 5px navy;
   opacity: 0.9;
   background: #fff;
 }
@@ -11,6 +12,10 @@ body {
 .nav-item{
   font-size:1.4rem;
   padding-right: 20px;
+}
+
+.nav-link {
+  color: darkgoldenrod;
 }
 
 #showcase{
@@ -22,6 +27,7 @@ body {
 
 .primary-overlay {
   background-color:rgba(50,60,166,0.7);
+  box-shadow: 2px 2px 20px black;
   position: absolute;
   top:0;
   left:0;
@@ -32,4 +38,27 @@ body {
 
 #main-footer{
   height: 120px;
+}
+
+.skills-header{
+    width: 50%;
+    margin: auto;
+}
+
+#about h1 {
+    color: darkgoldenrod;
+}
+
+#about img {
+    margin-top: -60px;
+}
+
+.card {
+    background-color: midnightblue;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: royalblue;
 }
