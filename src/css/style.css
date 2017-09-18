@@ -1,12 +1,16 @@
 body {
   margin-top: 105px;
-  background-color: whitesmoke;
+  background-color: #F0F8FF;
 }
 
 .navbar{
   box-shadow: 2px 2px 5px navy;
-  opacity: 0.9;
+  opacity: 0.8;
   background: #fff;
+}
+
+.navbar h3 {
+  color: midnightblue;
 }
 
 .nav-item{
@@ -36,16 +40,16 @@ body {
   width:100%;
   }
 
-#main-footer{
-  height: 120px;
-}
-
 .skills-header{
     width: 50%;
     margin: auto;
 }
 
 #about h1 {
+    color: darkgoldenrod;
+}
+
+#about .lead {
     color: darkgoldenrod;
 }
 
@@ -61,4 +65,17 @@ body {
 
 .card:hover {
     background-color: royalblue;
+}
+
+#contact h3 {
+    color: darkgoldenrod;
+}
+
+#contact #p2 {
+    color: darkgoldenrod;
+}
+
+
+#main-footer{
+  height: 120px;
 }
